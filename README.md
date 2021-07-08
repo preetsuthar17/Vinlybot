@@ -1,18 +1,14 @@
-## Rexx 
+# Rexx
 
 One of the best discord bot which can help you manage everything in your discord server with moderation to fun command fully functional!
 
-<br>
-
 ### Support Us Please
 
-Star | Fork
----- | ----
-![Star](https://i.imgur.com/41nhvJ1.png) | ![Fork](https://i.imgur.com/MOtHDPV.png)
+| Star                                     | Fork                                     |
+| ---------------------------------------- | ---------------------------------------- |
+| ![Star](https://i.imgur.com/41nhvJ1.png) | ![Fork](https://i.imgur.com/MOtHDPV.png) |
 
-<br>
-
-## Setup
+# Setup
 
 To setup this bot just follow below steps
 
@@ -50,36 +46,30 @@ npm i <module_name>
 ```
 
 just put name of module which is missing.
-
 and after these steps if you get error then join [support server](#Support)
+And yeah you are done once the bot come online you'll see something like this,
 
-## FAQ
+![Online](https://i.imgur.com/jZRS1p8.png)
 
-#### [Q]. How can i get support?
+# FAQ
 
-[A]. Join our [discord server](https://discord.gg/DXyczwxQYf)
+#### 01. How can i get support?
 
-#### [Q]. Do we provide support for self hosting?
+A. Join our [discord server](https://discord.gg/DXyczwxQYf).
 
-[A]. Well no we don't provide any type of support for self-hosting this bot
+#### 02. Do we provide support for self hosting?
+
+A. Well no we don't provide any type of support for self-hosting this bot.
 
 ## Contributing
 
 Steps to contribute:
 
-```
-1. Fork the repo
-2. Clone the repo git clone <your forked repo>
-2. Make a new branch for your feature
-3. Write the code
-4. Make a new file called config.js in test folder and copy the contents of test/sample.6. config.js and update the token.
-5. Run npm run build and npm run test
-6. Push you code and make a pull request
-```
+![Contirbute](https://i.imgur.com/qN2RoJF.png)
 
 That's it Thanks for contributing!
 
-## List
+# List
 
 - [x] Music
 
@@ -95,26 +85,20 @@ That's it Thanks for contributing!
 
 - [x] Server backup
 
-- [x] Economy (basic)
-
-- [ ] Search
-
 - [ ] Giveaways
- 
+
 - [ ] Premium
 
 - [ ] Custom prefix
 
-~~- [ ] NSFW [never gonna add]~~
-
-## License
+# License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
 
-## Support
+# Support
 
 For support, email contact.pritulx@gmail.com or join our [discord support server](https://discord.gg/DXyczwxQYf).
 
-## Authors
+# Authors
 
 - [@pritu](https://www.github.com/pritu)
