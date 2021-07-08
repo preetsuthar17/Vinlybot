@@ -5,6 +5,7 @@ module.exports = {
   name: "backupinfo",
   aliases: ["backup-info"],
   category: "backup",
+
   description: "Information about backup",
   usage: "rex backupinfo <backup_id>",
 

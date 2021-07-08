@@ -8,6 +8,7 @@ let color = "#303136";
 
 module.exports = {
   name: "help",
+
   aliases: ["h"],
   description: "Shows all available bot commands.",
   usage: "rex help [command]",
@@ -108,7 +109,7 @@ module.exports = {
           let emo = `${client.commands.get(name).emoji}`;
 
           let obj = {
-            cname: `\`${name}\``,
+            cname: `${emo} \`${name}\``,
             des,
           };
 

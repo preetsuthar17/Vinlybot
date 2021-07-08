@@ -5,6 +5,7 @@ module.exports = {
   category: "fun",
   usage: "rex meme",
 
+
   description: "Get Fresh meme :D",
   run: async (client, message, args) => {
     let data = await Random.getMeme();

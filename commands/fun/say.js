@@ -5,6 +5,7 @@ module.exports = {
   usage: "rex say",
   ownerOnly: false,
   cooldown: 3000,
+
   botPermission: [
     "VIEW_CHANNELS",
     "SEND_MESSAGES",

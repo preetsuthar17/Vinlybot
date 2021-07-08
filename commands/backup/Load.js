@@ -3,6 +3,7 @@ module.exports = {
   name: "backup-load",
   aliases: ["bload"],
   category: "backup",
+
   usage: "rex backup-load",
   description: "load a server backup",
   run: async (client, message, args) => {

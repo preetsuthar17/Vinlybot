@@ -3,6 +3,7 @@ module.exports = {
   name: "backup-create",
   aliases: [""],
   category: "backup",
+
   usage: "rex backup-create",
   description: "Make a backup for your server!",
   run: async (client, message, args) => {

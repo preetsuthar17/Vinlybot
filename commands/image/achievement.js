@@ -6,6 +6,7 @@ module.exports = {
   description: "Make super cool minecraft Achievement!!",
   usage: `rex achievement <text>`,
   timeout: 4000,
+
   botPermissions: ["ATTACH_FILES", "EMBED_LINKS"],
   /**
    * @param {Client} client
