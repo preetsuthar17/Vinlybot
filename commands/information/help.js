@@ -74,14 +74,14 @@ module.exports = {
       const embed2 = new MessageEmbed()
         .setColor("#303136")
         .setImage(
-          "https://cdn.discordapp.com/attachments/860909447572488192/861196663275782174/giif_tutoriall_help.gif"
+          "https://i.imgur.com/4kvXQiI.png"
         )
-        .setDescription(
-          "Here is quick example to use sub commands just like,\nyou can use `rex help ban`."
-        );
+        // .setDescription(
+        //   "Here is quick example to use sub commands just like,\nyou can use `rex help ban`."
+        // );
 
       const pages = [embed1, embed2];
-      const textPageChange = false;
+      const textPageChange = true;
       const emojis = ["⏪", "⏩"];
       const time = 30000;
       ReactionPages(message, pages, textPageChange, emojis, time);
