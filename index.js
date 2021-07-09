@@ -7,7 +7,8 @@ const client = new discord.Client({
 const config = require("./config.json");
 const mongoose = require('mongoose')
 module.exports = client;
-// module.exports = client;
+// const Discord = require('discord.js');
+const fetch = require("node-fetch");
 
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
@@ -63,6 +64,23 @@ client.on("guildDelete", (guild) => {
     .setFooter(`I'm in ${client.guilds.cache.size} Guilds Now!`);
   channel.send(embed);
 });
+
+//chatbot/////////
+
+
+client.on("message", async message => {
+  if (message.channel.name == "chatbot") {
+  if (message.author.bot) return;
+    message.channel.startTyping();
+  if (!message.content) return message.channel.send("Please say something.");
+  fetch(`https://api.affiliateplus.xyz/api/chatbot?message=${encodeURIComponent(message.content)}&botname=${client.user.username}&ownername=DEVELOPER_NAME`)
+      .then(res => res.json())
+      .then(data => {
+          message.noMentionReply(`${data.message}`);
+      });
+        message.channel.stopTyping();
+  }
+  });
 
 mongoose.connect(config.mongo, {
   useUnifiedTopology: true,
