@@ -5,9 +5,7 @@ const statuses = [
   "rex invite to invite me",
   "Rule breakers",
   "How pritu coded me. Hmmmmmmmmmm",
-  "Hii",
-  "I am Rexx",
-  "Powerfull moderation",
+  "Powerful moderation",
   `Over ${client.guilds.cache.size} Servers!`,
   `Over ${client.users.cache.size} Servers!`
 ]
