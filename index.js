@@ -7,6 +7,7 @@ const client = new discord.Client({
 const config = require("./config.json");
 const mongoose = require('mongoose')
 module.exports = client;
+// module.exports = client;
 
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
