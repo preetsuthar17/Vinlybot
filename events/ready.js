@@ -15,6 +15,6 @@ module.exports.run = (client) => {
   setInterval(() => {
     const index = Math.floor(Math.random() * (statuses.length - 1) + 1);
     const mainActivity = statuses[index]
-    client.user.setActivity(mainActivity)
+    client.user.setActivity(mainActivity, { type: "WATCHING"})
   }, 10000);
 };
