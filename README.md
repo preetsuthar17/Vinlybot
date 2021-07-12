@@ -69,28 +69,6 @@ Steps to contribute:
 
 That's it Thanks for contributing!
 
-# List
-
-- [x] Music
-
-- [x] Moderation
-
-- [x] Information
-
-- [x] Fun
-
-- [x] Images
-
-- [x] Suggestions
-
-- [x] Server backup
-
-- [ ] Giveaways
-
-- [ ] Premium
-
-- [ ] Custom prefix
-
 # License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
@@ -98,6 +76,11 @@ That's it Thanks for contributing!
 # Support
 
 For support, email contact.pritulx@gmail.com or join our [discord support server](https://discord.gg/DXyczwxQYf).
+
+pritu HQ | ❤️ Developer |
+:---: | :---:
+[![Sponsor-Image](https://cdn.discordapp.com/icons/856501506093875220/a_74268581d5b67fe744052e0c4d5674e2.gif?size=1024)](https://www.youtube.com/pritu) | The Discord Channel, subscribe for Discord.js related tutorials videos and join [support server](https://discord.io/prituhhq) for any kind of help. Click [here](https://www.youtube.com/pritu) to subscribe!
+
 
 # Authors
 
