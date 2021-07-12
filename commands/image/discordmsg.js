@@ -17,7 +17,7 @@ module.exports = {
    * @param {String[]} args
    */
   run: async (client, message, args) => {
-    message.react("<a:loading:857523184604545065>");
+    message.react("<:dot:860848255574736947>");
 
     await api
       .discord_message(

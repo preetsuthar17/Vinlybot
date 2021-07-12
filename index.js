@@ -1,9 +1,9 @@
 const { token, mongo } = require("./config.json");
 const discord = require("discord.js");
 require('discord-inline-replys');
-const client = new discord.Client({
-  disableEveryone: true,
-});
+
+const client = new discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] });
+
 const config = require("./config.json");
 const mongoose = require('mongoose')
 module.exports = client;

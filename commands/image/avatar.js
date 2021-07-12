@@ -14,7 +14,7 @@ module.exports = {
    */
   run: async (client, message, args) => {
     const member = message.mentions.members.first() || message.member;
-    message.react("<a:loading:857523184604545065>");
+    message.react("<:dot:860848255574736947>");
     const embed = new MessageEmbed()
       .setColor("#303136")
       .setTitle(`Avatar for ${member.user.tag}`)

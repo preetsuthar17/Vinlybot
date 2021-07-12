@@ -1,6 +1,6 @@
 const { ownerID, prefix } = require("../config.json");
 let cooldown = {};
-// const prefix = `rex `;
+
 
 module.exports.run = async (client, message) => {
   if (!message.content.startsWith(prefix)) return;

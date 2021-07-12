@@ -1,13 +1,10 @@
 // const client = require("discord.js");
 const client = require('../index') 
 const statuses = [
-  "rex help",
-  "rex invite to invite me",
-  "Rule breakers",
-  "How pritu coded me. Hmmmmmmmmmm",
-  "Powerful moderation",
-  `Over ${client.guilds.cache.size} Servers!`,
-  `Over ${client.users.cache.size} Servers!`
+ "Rex help",
+ "Rex invite",
+ "How my owner coded me. Hmmmmmm",
+ "Powerful Moderation"
 ]
 
 module.exports.run = (client) => {
