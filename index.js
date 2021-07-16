@@ -22,6 +22,7 @@ const player = new Player(client, {
   leaveOnEmpty: false,
 });
 
+
 client.player = player;
 
 new Player(client, {
