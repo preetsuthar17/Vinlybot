@@ -1,4 +1,4 @@
-# Rexx
+# Vinlybot
 
 One of the best discord bot which can help you manage everything in your discord server with moderation to fun command fully functional!
 
